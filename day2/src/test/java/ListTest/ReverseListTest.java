@@ -1,4 +1,4 @@
-package ListTest;
+package listtest;
 
 import org.example.list.reverselist.ReverseList;
 import org.junit.jupiter.api.BeforeAll;
@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.LinkedList;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

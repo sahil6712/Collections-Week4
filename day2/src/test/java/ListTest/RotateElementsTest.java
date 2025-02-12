@@ -1,4 +1,4 @@
-package ListTest;
+package listtest;
 
 import org.example.list.rotateelements.RotateElements;
 import org.junit.jupiter.api.BeforeAll;

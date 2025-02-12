@@ -1,4 +1,4 @@
-package ListTest;
+package listtest;
 
 import org.example.list.findnthfromlast.FindNthFromLast;
 import org.junit.jupiter.api.Test;

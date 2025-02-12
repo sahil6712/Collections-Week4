@@ -1,4 +1,4 @@
-package ListTest;
+package listtest;
 
 import org.example.list.removeduplicates.RemoveDuplicates;
 import org.junit.jupiter.api.BeforeAll;
