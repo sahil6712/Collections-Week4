@@ -62,7 +62,7 @@ public class ReverseList {
         reverseLinkedList(list2);
 
         // Display 2nd list
-        System.out.println("The reverse of Linked list is: ");
+        System.out.println("Reversed LinkedList: ");
         System.out.println(list2);
 
 
