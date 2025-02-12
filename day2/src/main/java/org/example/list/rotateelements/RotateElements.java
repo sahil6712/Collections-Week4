@@ -1,4 +1,4 @@
-package org.example.list;
+package org.example.list.rotateelements;
 
 import java.util.ArrayList;
 import java.util.Arrays;
