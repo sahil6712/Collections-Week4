@@ -15,6 +15,6 @@ public class CheckSetsTest {
 
     @Test
     void testFindSetsEqual() {
-        assertTrue(CheckSets.findSetsEqual(set1, set2);
+        assertTrue(CheckSets.findSetsEqual(set1, set2));
     }
 }
