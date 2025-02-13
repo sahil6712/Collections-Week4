@@ -2,10 +2,10 @@ package org.example.queue.circularbuffersimulation;
 
 public class CircularBuffer {
     private final int[] buffer;
-    private int head = 0; // Points to the oldest element
-    private int tail = 0; // Points to the next insertion index
-    private int size = 0; // Current number of elements
-    private final int capacity; // Fixed size of the buffer
+    private int head = 0;
+    private int tail = 0;
+    private int size = 0;
+    private final int capacity;
 
     public CircularBuffer(int capacity) {
         this.capacity = capacity;
@@ -18,13 +18,13 @@ public class CircularBuffer {
         if (size < capacity) {
             size++;
         } else {
-            head = (head + 1) % capacity; // Overwrite the oldest element
+            head = (head + 1) % capacity;
         }
     }
 
     public Integer dequeue() {
         if (size == 0) {
-            return null; // Buffer is empty
+            return null;
         }
         int value = buffer[head];
         head = (head + 1) % capacity;
