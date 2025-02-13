@@ -1,4 +1,4 @@
-package queuetest;
+package queuetest.reverse;
 
 import org.example.queue.reverse.ReverseQueue;
 import org.junit.jupiter.api.Test;
