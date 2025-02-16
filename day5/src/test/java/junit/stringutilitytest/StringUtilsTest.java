@@ -2,7 +2,7 @@ package junit.stringutilitytest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.example.junit.testingcalculator.stringutility.StringUtils;
+import org.example.junit.stringutility.StringUtils;
 import org.junit.jupiter.api.Test;
 
 class StringUtilsTest {

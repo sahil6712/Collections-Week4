@@ -1,4 +1,4 @@
-package org.example.junit.testingcalculator.stringutility;
+package org.example.junit.stringutility;
 
 public class StringUtils {
     public String reverse(String str) {
