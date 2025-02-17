@@ -2,6 +2,7 @@ package junit.filehandlingtest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.example.junit.filehandling.FileProcessor;
 import org.junit.jupiter.api.*;
 import java.io.IOException;
 import java.nio.file.*;
