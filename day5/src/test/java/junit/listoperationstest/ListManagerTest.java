@@ -2,6 +2,7 @@ package junit.listoperationstest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.example.junit.listoperations.ListManager;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
